@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript_Helpers",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jasmine tests/*.js"
+  },
+  "author": "Vagelis Prokopiou",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
