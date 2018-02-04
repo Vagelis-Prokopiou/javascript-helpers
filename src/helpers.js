@@ -158,9 +158,16 @@ function daysBetween(date1, date2)
     return Math.ceil(diff / oneDay);
 }
 
+
+const arrayContains = function (array, value)
+{
+    return array.indexOf(value) !== -1;
+};
+
 module.exports = {
     saveObjectToLocalStorage
     , getObjectFromLocalStorage
     , extractIntegersFromString
     , extractFloatsFromString
-}
+    , arrayContains
+};

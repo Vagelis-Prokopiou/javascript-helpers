@@ -2,11 +2,12 @@
   "name": "JavaScript_Helpers",
   "version": "1.0.0",
   "scripts": {
-    "test": "jasmine tests/*.js"
+    "test": "jest --colors",
+    "watch": "jest --colors --watch"
   },
   "author": "Vagelis Prokopiou",
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^2.8.0"
+    "jest": "^22.1.4"
   }
 }
